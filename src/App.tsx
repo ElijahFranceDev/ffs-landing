@@ -1,11 +1,7 @@
 ﻿import './App.css'
-import ffsFull from './assets/ffs-full.png'
-import ffsProfile from './assets/ffs-profile.png'
+import ffsFull from './assets/FFS-Full.png'
+import ffsProfile from './assets/FFS-Profile.png'
 import heroBg from './assets/backgrounds/hero-bg.png'
-
-function App() {
-  return (
-    <main className="site-shell">
       <section
   className="hero"
   style={{
@@ -153,5 +149,6 @@ function App() {
 }
 
 export default App
+
 
 
