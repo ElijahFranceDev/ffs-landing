@@ -1,4 +1,4 @@
-﻿import './App.css'
+import './App.css'
 import ffsFull from './assets/FFS-Full.png'
 import ffsProfile from './assets/FFS-Profile.png'
 import heroBg from './assets/backgrounds/hero-bg.png'
@@ -19,7 +19,7 @@ function App() {
 
         <nav className="nav">
           <img src={ffsProfile} alt="FFS logo" className="nav-logo" />
-          <a href="https://forms.gle/GLRnKr2yvJkb9dB88" target="_blank" rel="noreferrer" className="nav-cta">Book Consultation</a>
+          <a href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer" className="nav-cta">Book Consultation</a>
         </nav>
 
         <div className="hero-grid">
@@ -32,7 +32,7 @@ function App() {
               and organized support behind the scenes.
             </p>
             <div className="hero-actions">
-              <a href="https://forms.gle/GLRnKr2yvJkb9dB88" target="_blank" rel="noreferrer" className="btn btn-gold">Book a Free Consultation</a>
+              <a href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer" className="btn btn-gold">Book a Free Consultation</a>
               <a href="#services" className="btn btn-dark">Explore Services</a>
             </div>
           </div>
@@ -95,7 +95,7 @@ function App() {
           <input placeholder="Email Address" />
           <input placeholder="Truck Type" />
           <textarea placeholder="What kind of support are you looking for?" />
-          <a className="form-submit" href="https://forms.gle/GLRnKr2yvJkb9dB88" target="_blank" rel="noreferrer">Request Consultation</a>
+          <a className="form-submit" href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer">Request Consultation</a>
         </form>
       </section>
 
@@ -111,4 +111,5 @@ function App() {
 }
 
 export default App
+
 
