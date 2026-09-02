@@ -1,0 +1,5 @@
+{
+  "rewrites": [
+    { "source": "/technology", "destination": "/index.html" }
+  ]
+}
