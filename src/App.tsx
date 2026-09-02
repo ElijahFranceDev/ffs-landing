@@ -19,12 +19,15 @@ function App() {
 
         <nav className="nav">
           <img src={ffsProfile} alt="FFS logo" className="nav-logo" />
-          <a href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer" className="nav-cta">Book Consultation</a>
+          <div className="hero-actions" style={{ marginTop: 0 }}>
+            <a href="/technology" className="btn btn-dark">Technology</a>
+            <a href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer" className="nav-cta">Book Consultation</a>
+          </div>
         </nav>
 
         <div className="hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow">Forge Freight Support</p>
+            <p className="eyebrow">Frontline Forge Solutions</p>
             <h1>DISPATCH SUPPORT BUILT FOR OWNER-OPERATORS WHO NEED TO STAY MOVING.</h1>
             <p className="hero-text">
               Professional freight dispatch support for small carriers, hotshot drivers,
@@ -38,7 +41,7 @@ function App() {
           </div>
 
           <div className="hero-card">
-            <img src={ffsFull} alt="Forge Freight Support" />
+            <img src={ffsFull} alt="Frontline Forge Solutions" />
           </div>
         </div>
       </section>
@@ -102,8 +105,7 @@ function App() {
       <footer>
         <img src={ffsProfile} alt="FFS mark" />
         <p>
-          Forge Freight Support - Professional remote dispatch support for owner-operators
-          and small carriers.
+          Frontline Forge Solutions — professional carrier operations and dispatch support for owner-operators and small carriers.
         </p>
       </footer>
     </main>
@@ -111,5 +113,3 @@ function App() {
 }
 
 export default App
-
-
