@@ -1,6 +1,5 @@
 {
   "rewrites": [
-    { "source": "/technology", "destination": "/index.html" },
-    { "source": "/hours", "destination": "/index.html" }
+    { "source": "/technology", "destination": "/index.html" }
   ]
 }
