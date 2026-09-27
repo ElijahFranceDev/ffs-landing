@@ -45,7 +45,6 @@ function Technology() {
             <span>Frontline Forge Solutions</span>
           </a>
           <div className="hero-actions" style={{ marginTop: 0 }}>
-            <a href="/hours" className="btn btn-dark">Hours</a>
             <a href="/" className="btn btn-dark">Carrier Services</a>
             <a href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer" className="nav-cta">Technology Consultation</a>
           </div>
@@ -155,10 +154,7 @@ function Technology() {
 
       <footer>
         <img src={ffsProfile} alt="FFS mark" />
-        <div>
-          <p>Frontline Forge Solutions — carrier operations, transportation technology, and software solutions.</p>
-          <a href="/hours" style={{ color: '#d89c2e', fontWeight: 800 }}>Hours of Operation</a>
-        </div>
+        <p>Frontline Forge Solutions — carrier operations, transportation technology, and software solutions.</p>
       </footer>
     </main>
   )
