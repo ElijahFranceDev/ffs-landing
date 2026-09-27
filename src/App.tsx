@@ -20,7 +20,6 @@ function App() {
         <nav className="nav">
           <img src={ffsProfile} alt="FFS logo" className="nav-logo" />
           <div className="hero-actions" style={{ marginTop: 0 }}>
-            <a href="/hours" className="btn btn-dark">Hours</a>
             <a href="/technology" className="btn btn-dark">Technology</a>
             <a href="https://calendly.com/elijah-freight/30min" target="_blank" rel="noreferrer" className="nav-cta">Book Consultation</a>
           </div>
@@ -105,12 +104,9 @@ function App() {
 
       <footer>
         <img src={ffsProfile} alt="FFS mark" />
-        <div>
-          <p>
-            Frontline Forge Solutions — professional carrier operations and dispatch support for owner-operators and small carriers.
-          </p>
-          <a href="/hours" style={{ color: '#d89c2e', fontWeight: 800 }}>Hours of Operation</a>
-        </div>
+        <p>
+          Frontline Forge Solutions — professional carrier operations and dispatch support for owner-operators and small carriers.
+        </p>
       </footer>
     </main>
   )
